@@ -1,6 +1,6 @@
-mod line;
-mod quadruple;
-mod triangle;
+pub mod line;
+pub mod quadruple;
+pub mod triangle;
 #[cfg(test)]
 mod tests {
     use crate::triangle::triangle::{TriangleAssembleMode, triangle_assemble};
