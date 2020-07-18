@@ -1,0 +1,12 @@
+[package]
+name = "PrimitiveAssembler"
+version = "0.1.0"
+authors = ["t18b219k <t18b219k@mail.cc.niigata-u.ac.jp>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+keyword = ["OpenGL","graphics"]
+repository = "https://github.com/t18b219k/PrimitiveAssembler"
+description = "Convert Triangle Strip QuadStrip Triangle Fan Quads LineLoop and LineStrip to basic Triangles ,Lines"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
