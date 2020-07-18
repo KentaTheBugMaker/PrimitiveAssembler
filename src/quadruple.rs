@@ -79,8 +79,6 @@ pub mod quadruple{
                         indices.push(vertex_c-1);
                         indices.push(vertex_b-1);
                         indices.push(counter-1);
-                        println!("[{},{},{},{}]",vertex_a-1,vertex_b-1,vertex_c-1,counter-1);
-
                     }
 
                 }

@@ -16,12 +16,9 @@ pub mod line{
                     counter+=1;
                     indices.push(last_vertex);
                     indices.push(counter);
-                    println!("[{},{}]",last_vertex,counter);
-                    println!("vertices{},{}",vertices,counter);
                     if vertices ==counter{
                         indices.push(counter);
                         indices.push(0);
-                        println!("[{},{}]",counter,0);
                     }
                 },
                 //Ok
@@ -30,7 +27,6 @@ pub mod line{
                     counter+=1;
                     indices.push(last_vertex);
                     indices.push(counter);
-                    println!("[{},{}]",last_vertex,counter);
                 },
             }
         }
