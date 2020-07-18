@@ -4,19 +4,6 @@ pub mod quadruple{
         Separate,
         Strip
     }
-    pub struct Assembler{
-        counter: u32,
-        // vertices count
-        vertex_a: u32,
-        // index a
-        vertex_b: u32,
-        // index b
-        vertex_c:u32,
-        //index c
-        target: bool,
-        // overwrite to vertex a
-        mode: QuadAssembleMode,
-    }
 
     pub fn quads_assemble(mode: QuadAssembleMode, mut vertices:u32) ->Vec<u32>{
         let mut indices=vec![];
